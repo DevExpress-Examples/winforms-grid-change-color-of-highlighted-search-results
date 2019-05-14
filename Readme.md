@@ -35,7 +35,7 @@ Dim highlightAppearance As AppearanceDefault = LookAndFeelHelper.GetHighlightSea
 
 Using this approach you can change colors of a highlighted text application wide. See the [How to change one skin element in all available skins](https://www.devexpress.com/Support/Center/Question/Details/K18374) article for details.
 
-Note, however, that we recommend that you create a custom skin using our Skin Editor tool. This approach is more stable since skin element names can be changed in future releases.
+Note, however, that we recommend that you create a custom skin using our [Skin Editor tool](https://documentation.devexpress.com/SkinEditor/2547/Create-New-Skins). This approach is more stable since skin element names can be changed in future releases.
 
 
 Alternatively, you can use custom painting to complete this task. This example illustrates how to customize foreground and background colors of a search string highlighted within located records in a grid using this approach. The main idea is to handle the CustomDrawCell event and use the ViewInfo.MatchedRanges property to paint the highlighted text.
