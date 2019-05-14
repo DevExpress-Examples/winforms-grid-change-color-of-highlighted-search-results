@@ -39,16 +39,16 @@ Namespace DXSample
 			Me.defaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
 			Me.gridControl1 = New DevExpress.XtraGrid.GridControl()
 			Me.customersBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet = New DXSample.nwindDataSet()
-			Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+            Me.nwindDataSet = New nwindDataSet()
+            Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
 			Me.colCustomerID = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colCompanyName = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colContactName = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colContactTitle = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colCity = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colCountry = New DevExpress.XtraGrid.Columns.GridColumn()
-			Me.customersTableAdapter = New DXSample.nwindDataSetTableAdapters.CustomersTableAdapter()
-			CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.customersTableAdapter = New nwindDataSetTableAdapters.CustomersTableAdapter()
+            CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.customersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -158,8 +158,8 @@ Namespace DXSample
 		Private WithEvents gridView1 As DevExpress.XtraGrid.Views.Grid.GridView
 		Private nwindDataSet As nwindDataSet
 		Private customersBindingSource As System.Windows.Forms.BindingSource
-		Private customersTableAdapter As DXSample.nwindDataSetTableAdapters.CustomersTableAdapter
-		Private colCustomerID As DevExpress.XtraGrid.Columns.GridColumn
+        Private customersTableAdapter As nwindDataSetTableAdapters.CustomersTableAdapter
+        Private colCustomerID As DevExpress.XtraGrid.Columns.GridColumn
 		Private colCompanyName As DevExpress.XtraGrid.Columns.GridColumn
 		Private colContactName As DevExpress.XtraGrid.Columns.GridColumn
 		Private colContactTitle As DevExpress.XtraGrid.Columns.GridColumn
