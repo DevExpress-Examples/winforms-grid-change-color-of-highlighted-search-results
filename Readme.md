@@ -33,7 +33,7 @@ Dim foreColor As Color = skin.Colors.GetColor(CommonColors.HighlightSearchText)
 Dim highlightAppearance As AppearanceDefault = LookAndFeelHelper.GetHighlightSearchAppearance(LookAndFeel, True)
 ```
 
-Using this approach you can change colors of a highlighted text application wide. See the How to change one skin element in all available skins article for details.
+Using this approach you can change colors of a highlighted text application wide. See the [How to change one skin element in all available skins](https://www.devexpress.com/Support/Center/Question/Details/K18374) article for details.
 
 Note, however, that we recommend that you create a custom skin using our Skin Editor tool. This approach is more stable since skin element names can be changed in future releases.
 
