@@ -6,7 +6,7 @@
 
 # WinForms Data Grid - Change the color of highlighted search results
 
-This example demonstrates how to handle the [CustomDrawCell](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Grid.GridView.CustomDrawCell) event and paint the highlighted text that matches a serach string specified in the grid's Find Panel:
+This example demonstrates how to handle the [CustomDrawCell](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Grid.GridView.CustomDrawCell) event and paint the highlighted text that matches the search string specified in the grid's Find Panel:
 
 ```csharp
 private void OnCustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e) {
@@ -23,7 +23,7 @@ private void OnCustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowC
 }
 ```
 
-Another technique to change background and foreground colors of search results is to customize corresponding skin properties. This allows you to change colors of a highlighted text across the entire application. Read the following KB article for more information: [How to change one skin element in all available skins](https://www.devexpress.com/Support/Center/Question/Details/K18374) article.
+Another technique to change background and foreground colors of search results is to customize corresponding skin properties. This allows you to change colors of highlighted text across the entire application. Read the following KB article for more information: [How to change one skin element in all available skins](https://www.devexpress.com/Support/Center/Question/Details/K18374).
 
 ```C#
 var skin = CommonSkins.GetSkin(LookAndFeel);
